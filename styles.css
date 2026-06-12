@@ -198,13 +198,13 @@ h1 {
 .btn-primary:active { transform: translateY(0); }
 
 .btn-secondary {
-  display: inline-flex; align-items: center; gap: 9px;
+  display: inline-flex; align-items: center; gap: 10px;
   color: var(--ink);
   text-decoration: none;
   font-family: var(--display);
   font-weight: 700;
-  font-size: 15px;
-  padding: 14px 22px;
+  font-size: 16px;
+  padding: 14px 24px;
   border: 1px solid rgba(45, 212, 191, 0.35);
   border-radius: 14px;
   transition: border-color 0.25s, background 0.25s, transform 0.25s;
@@ -214,6 +214,8 @@ h1 {
   background: var(--accent-dim);
   transform: translateY(-2px);
 }
+
+.cta-sub { margin-bottom: 18px; }
 
 .btn-soon {
   display: inline-flex; align-items: center; gap: 8px;
