@@ -197,6 +197,24 @@ h1 {
 }
 .btn-primary:active { transform: translateY(0); }
 
+.btn-secondary {
+  display: inline-flex; align-items: center; gap: 9px;
+  color: var(--ink);
+  text-decoration: none;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 14px 22px;
+  border: 1px solid rgba(45, 212, 191, 0.35);
+  border-radius: 14px;
+  transition: border-color 0.25s, background 0.25s, transform 0.25s;
+}
+.btn-secondary:hover {
+  border-color: var(--accent-bright);
+  background: var(--accent-dim);
+  transform: translateY(-2px);
+}
+
 .btn-soon {
   display: inline-flex; align-items: center; gap: 8px;
   color: var(--muted);
